@@ -1,0 +1,2451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse Tools - Daddlez</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <img class="image-gradient" src="gradient (1).png" alt="gradient" />
+    <div class="layer-blur"></div>
+    <div class="container">
+      <header>
+        <h1 data-aos="fade-down" data-aos-duration="2000" class="logo">Daddlez</h1>
+        <nav>
+          <a data-aos="fade-down" data-aos-duration="1500" href="index.html">Home</a>
+          <a data-aos="fade-down" data-aos-duration="2000" href="browse tools.html">Browse Tools</a>
+          <a data-aos="fade-down" data-aos-duration="2500" href="comparison.html">Comparisons</a>
+          <a data-aos="fade-down" data-aos-duration="3000" href="blog.html">Blog</a>
+          <a data-aos="fade-down" data-aos-duration="3000" href="submittool.html">Submit Tools</a>
+        </nav>
+        <button data-aos="fade-down" data-aos-duration="1500" class="btn-signing">SIGNING</button>
+      </header>
+
+      <main class="browse-main">
+        <div class="content">
+          <h1 data-aos="fade-zoom-in" 
+              data-aos-duration="2000">
+            Browse AI Tools
+          </h1>
+          <p data-aos="fade-zoom-in" 
+             data-aos-duration="2500" 
+             class="description">
+            Explore a wide range of AI tools, categorized for your convenience. Find what suits your project best!
+          </p>
+        </div>
+
+        <section class="filters">
+          <button class="filter-button active" data-filter="all">All Tools</button>
+          <button class="filter-button" data-filter="free">Free Tools</button>
+          <button class="filter-button" data-filter="paid">Paid Tools</button>
+          <button class="filter-button" data-filter="popular">Popular</button>
+          <button class="filter-button" data-filter="new">New</button>
+        </section>
+        
+        <div class="tools-grid">
+          <!-- ChatGPT Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2000">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-robot"></i>
+              </div>
+              <h3 class="tool-card-title">ChatGPT</h3>
+            </div>
+            <p class="tool-card-description">
+              Advanced language model for natural conversations, content creation, and problem-solving.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">AI Chat</span>
+              <span class="tool-card-tag">Content Creation</span>
+              <span class="tool-card-tag">Productivity</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Claude Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2100">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-brain"></i>
+              </div>
+              <h3 class="tool-card-title">Claude</h3>
+            </div>
+            <p class="tool-card-description">
+              Anthropic's AI assistant known for its helpful, harmless, and honest responses.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">AI Assistant</span>
+              <span class="tool-card-tag">Writing</span>
+              <span class="tool-card-tag">Analysis</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Midjourney Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2200">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-image"></i>
+              </div>
+              <h3 class="tool-card-title">Midjourney</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered image generation tool that creates stunning artwork from text descriptions.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Image Generation</span>
+              <span class="tool-card-tag">Art</span>
+              <span class="tool-card-tag">Design</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- GitHub Copilot Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2300">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-code"></i>
+              </div>
+              <h3 class="tool-card-title">GitHub Copilot</h3>
+            </div>
+            <p class="tool-card-description">
+              AI pair programmer that helps you write better code faster with real-time suggestions.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Coding</span>
+              <span class="tool-card-tag">Development</span>
+              <span class="tool-card-tag">Productivity</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- DALL-E Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2400">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-paint-brush"></i>
+              </div>
+              <h3 class="tool-card-title">DALL-E</h3>
+            </div>
+            <p class="tool-card-description">
+              Create unique images from text descriptions with OpenAI's powerful image generation model.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Image Generation</span>
+              <span class="tool-card-tag">AI Art</span>
+              <span class="tool-card-tag">Creative</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Stable Diffusion Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2500">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-magic"></i>
+              </div>
+              <h3 class="tool-card-title">Stable Diffusion</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source image generation model for creating high-quality artwork and illustrations.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Image Generation</span>
+              <span class="tool-card-tag">Open Source</span>
+              <span class="tool-card-tag">Art</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Notion AI Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2600">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-sticky-note"></i>
+              </div>
+              <h3 class="tool-card-title">Notion AI</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered writing assistant integrated into Notion for enhanced productivity.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Writing</span>
+              <span class="tool-card-tag">Productivity</span>
+              <span class="tool-card-tag">Organization</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- RunwayML Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2700">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-film"></i>
+              </div>
+              <h3 class="tool-card-title">RunwayML</h3>
+            </div>
+            <p class="tool-card-description">
+              Creative AI platform for video editing, image generation, and machine learning.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Video Editing</span>
+              <span class="tool-card-tag">AI Art</span>
+              <span class="tool-card-tag">Creative</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Jasper Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2800">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-pencil"></i>
+              </div>
+              <h3 class="tool-card-title">Jasper</h3>
+            </div>
+            <p class="tool-card-description">
+              AI writing assistant for creating marketing copy, blog posts, and social media content.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Writing</span>
+              <span class="tool-card-tag">Marketing</span>
+              <span class="tool-card-tag">Content</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Synthesia Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="2900">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-user"></i>
+              </div>
+              <h3 class="tool-card-title">Synthesia</h3>
+            </div>
+            <p class="tool-card-description">
+              Create AI-generated videos with virtual presenters speaking in multiple languages.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Video Creation</span>
+              <span class="tool-card-tag">AI Avatars</span>
+              <span class="tool-card-tag">Multilingual</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- ElevenLabs Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3000">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-microphone"></i>
+              </div>
+              <h3 class="tool-card-title">ElevenLabs</h3>
+            </div>
+            <p class="tool-card-description">
+              AI voice generation platform for creating natural-sounding speech in multiple languages.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Voice Generation</span>
+              <span class="tool-card-tag">Audio</span>
+              <span class="tool-card-tag">Multilingual</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Copy.ai Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3100">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-copy"></i>
+              </div>
+              <h3 class="tool-card-title">Copy.ai</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered copywriting tool for generating marketing content and social media posts.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Copywriting</span>
+              <span class="tool-card-tag">Marketing</span>
+              <span class="tool-card-tag">Content</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Descript Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3200">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-headphones"></i>
+              </div>
+              <h3 class="tool-card-title">Descript</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered audio and video editing platform with text-based editing capabilities.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Audio Editing</span>
+              <span class="tool-card-tag">Video Editing</span>
+              <span class="tool-card-tag">Transcription</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Grammarly Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3300">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-check-circle"></i>
+              </div>
+              <h3 class="tool-card-title">Grammarly</h3>
+            </div>
+            <p class="tool-card-description">
+              AI writing assistant that helps improve grammar, style, and clarity in your writing.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Writing</span>
+              <span class="tool-card-tag">Grammar</span>
+              <span class="tool-card-tag">Productivity</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Murf Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3400">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-volume-up"></i>
+              </div>
+              <h3 class="tool-card-title">Murf</h3>
+            </div>
+            <p class="tool-card-description">
+              AI voice generator for creating natural-sounding voiceovers for videos and presentations.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Voice Generation</span>
+              <span class="tool-card-tag">Audio</span>
+              <span class="tool-card-tag">Content Creation</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Lumen5 Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3500">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-video-camera"></i>
+              </div>
+              <h3 class="tool-card-title">Lumen5</h3>
+            </div>
+            <p class="tool-card-description">
+              AI video creation platform that turns blog posts into engaging social media videos.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Video Creation</span>
+              <span class="tool-card-tag">Social Media</span>
+              <span class="tool-card-tag">Marketing</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Beautiful.ai Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3600">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-slideshare"></i>
+              </div>
+              <h3 class="tool-card-title">Beautiful.ai</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered presentation design tool that automatically creates beautiful slides.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Presentations</span>
+              <span class="tool-card-tag">Design</span>
+              <span class="tool-card-tag">Productivity</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Otter.ai Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3700">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-file-text"></i>
+              </div>
+              <h3 class="tool-card-title">Otter.ai</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered transcription and note-taking tool for meetings and conversations.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Transcription</span>
+              <span class="tool-card-tag">Note-taking</span>
+              <span class="tool-card-tag">Productivity</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Fireflies.ai Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3800">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-comments"></i>
+              </div>
+              <h3 class="tool-card-title">Fireflies.ai</h3>
+            </div>
+            <p class="tool-card-description">
+              AI meeting assistant that transcribes, summarizes, and analyzes your meetings.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Meeting Assistant</span>
+              <span class="tool-card-tag">Transcription</span>
+              <span class="tool-card-tag">Productivity</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Tome Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="3900">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-book"></i>
+              </div>
+              <h3 class="tool-card-title">Tome</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered storytelling platform that creates engaging presentations and narratives.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Storytelling</span>
+              <span class="tool-card-tag">Presentations</span>
+              <span class="tool-card-tag">Creative</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Lexica Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4000">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-search"></i>
+              </div>
+              <h3 class="tool-card-title">Lexica</h3>
+            </div>
+            <p class="tool-card-description">
+              AI art search engine and prompt database for Stable Diffusion and other models.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">AI Art</span>
+              <span class="tool-card-tag">Search Engine</span>
+              <span class="tool-card-tag">Creative</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Playground AI Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4100">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-gamepad"></i>
+              </div>
+              <h3 class="tool-card-title">Playground AI</h3>
+            </div>
+            <p class="tool-card-description">
+              Free-to-use online AI image creator with multiple models and editing capabilities.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Image Generation</span>
+              <span class="tool-card-tag">Free</span>
+              <span class="tool-card-tag">Creative</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Leonardo.ai Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4200">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-paint-brush"></i>
+              </div>
+              <h3 class="tool-card-title">Leonardo.ai</h3>
+            </div>
+            <p class="tool-card-description">
+              AI art generation platform with custom model training and asset management.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">AI Art</span>
+              <span class="tool-card-tag">Model Training</span>
+              <span class="tool-card-tag">Creative</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Adobe Firefly Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4300">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-fire"></i>
+              </div>
+              <h3 class="tool-card-title">Adobe Firefly</h3>
+            </div>
+            <p class="tool-card-description">
+              Adobe's creative AI tool for generating images, text effects, and recoloring artwork.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Image Generation</span>
+              <span class="tool-card-tag">Design</span>
+              <span class="tool-card-tag">Creative</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Canva AI Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4400">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-picture-o"></i>
+              </div>
+              <h3 class="tool-card-title">Canva AI</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered design tools for creating stunning graphics, presentations, and social media content.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Design</span>
+              <span class="tool-card-tag">Graphics</span>
+              <span class="tool-card-tag">Social Media</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Replicate Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4500">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-cogs"></i>
+              </div>
+              <h3 class="tool-card-title">Replicate</h3>
+            </div>
+            <p class="tool-card-description">
+              Platform for running open-source machine learning models with simple API access.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">ML Models</span>
+              <span class="tool-card-tag">API</span>
+              <span class="tool-card-tag">Development</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Pay-as-you-go</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Hugging Face Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4600">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-code-fork"></i>
+              </div>
+              <h3 class="tool-card-title">Hugging Face</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source platform for machine learning models, datasets, and AI tools.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">ML Models</span>
+              <span class="tool-card-tag">Open Source</span>
+              <span class="tool-card-tag">Development</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- AssemblyAI Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4700">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-microphone"></i>
+              </div>
+              <h3 class="tool-card-title">AssemblyAI</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered speech recognition and natural language processing API.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Speech Recognition</span>
+              <span class="tool-card-tag">NLP</span>
+              <span class="tool-card-tag">API</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Pay-as-you-go</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Cohere Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4800">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-language"></i>
+              </div>
+              <h3 class="tool-card-title">Cohere</h3>
+            </div>
+            <p class="tool-card-description">
+              Enterprise-grade natural language processing platform for text generation and analysis.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">NLP</span>
+              <span class="tool-card-tag">Text Generation</span>
+              <span class="tool-card-tag">Enterprise</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Anthropic Claude API Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="4900">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-plug"></i>
+              </div>
+              <h3 class="tool-card-title">Anthropic Claude API</h3>
+            </div>
+            <p class="tool-card-description">
+              API access to Claude, Anthropic's advanced language model for various applications.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">API</span>
+              <span class="tool-card-tag">Language Model</span>
+              <span class="tool-card-tag">Enterprise</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Perplexity AI Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5000">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-question-circle"></i>
+              </div>
+              <h3 class="tool-card-title">Perplexity AI</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered search engine that provides detailed answers with source citations.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Search</span>
+              <span class="tool-card-tag">Research</span>
+              <span class="tool-card-tag">Knowledge</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Character.ai Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5100">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-user-circle"></i>
+              </div>
+              <h3 class="tool-card-title">Character.ai</h3>
+            </div>
+            <p class="tool-card-description">
+              Platform for creating and chatting with AI characters based on famous personalities.
+            </p>
+            <div class="tool-card-tag">Entertainment</span>
+              <span class="tool-card-tag">Chat</span>
+              <span class="tool-card-tag">Creative</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Poe Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5200">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-comment"></i>
+              </div>
+              <h3 class="tool-card-title">Poe</h3>
+            </div>
+            <p class="tool-card-description">
+              Platform for chatting with multiple AI models including Claude, GPT-4, and more.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Chat</span>
+              <span class="tool-card-tag">AI Assistant</span>
+              <span class="tool-card-tag">Multi-model</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Pi by Inflection Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5300">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-heart"></i>
+              </div>
+              <h3 class="tool-card-title">Pi by Inflection</h3>
+            </div>
+            <p class="tool-card-description">
+              Personal AI assistant focused on emotional intelligence and supportive conversations.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">AI Assistant</span>
+              <span class="tool-card-tag">Emotional Support</span>
+              <span class="tool-card-tag">Personal</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- You.com Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5400">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-search-plus"></i>
+              </div>
+              <h3 class="tool-card-title">You.com</h3>
+            </div>
+            <p class="tool-card-description">
+              AI-powered search engine with chat capabilities and multiple AI tools integration.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Search</span>
+              <span class="tool-card-tag">Chat</span>
+              <span class="tool-card-tag">Multi-tool</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Bard Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5500">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-google"></i>
+              </div>
+              <h3 class="tool-card-title">Bard</h3>
+            </div>
+            <p class="tool-card-description">
+              Google's AI chatbot powered by PaLM 2 for creative and informative conversations.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Chat</span>
+              <span class="tool-card-tag">Google</span>
+              <span class="tool-card-tag">Assistant</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Bing Chat Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5600">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-windows"></i>
+              </div>
+              <h3 class="tool-card-title">Bing Chat</h3>
+            </div>
+            <p class="tool-card-description">
+              Microsoft's AI-powered chat interface integrated with Bing search engine.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Chat</span>
+              <span class="tool-card-tag">Search</span>
+              <span class="tool-card-tag">Microsoft</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- HuggingChat Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5700">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-comments"></i>
+              </div>
+              <h3 class="tool-card-title">HuggingChat</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source AI chat interface powered by various open models from Hugging Face.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Chat</span>
+              <span class="tool-card-tag">Open Source</span>
+              <span class="tool-card-tag">Multi-model</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- AutoGPT Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5800">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-robot"></i>
+              </div>
+              <h3 class="tool-card-title">AutoGPT</h3>
+            </div>
+            <p class="tool-card-description">
+              Autonomous AI agent that can perform tasks and make decisions independently.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Autonomous</span>
+              <span class="tool-card-tag">Task Automation</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- BabyAGI Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="5900">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-child"></i>
+              </div>
+              <h3 class="tool-card-title">BabyAGI</h3>
+            </div>
+            <p class="tool-card-description">
+              Task-driven autonomous agent that can create and execute task lists.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Autonomous</span>
+              <span class="tool-card-tag">Task Management</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- LangChain Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6000">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-link"></i>
+              </div>
+              <h3 class="tool-card-title">LangChain</h3>
+            </div>
+            <p class="tool-card-description">
+              Framework for developing applications powered by language models.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Development</span>
+              <span class="tool-card-tag">Framework</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Vercel AI SDK Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6100">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-code"></i>
+              </div>
+              <h3 class="tool-card-title">Vercel AI SDK</h3>
+            </div>
+            <p class="tool-card-description">
+              Development toolkit for building AI-powered applications with React and Next.js.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Development</span>
+              <span class="tool-card-tag">React</span>
+              <span class="tool-card-tag">Next.js</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- TensorFlow Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6200">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-cube"></i>
+              </div>
+              <h3 class="tool-card-title">TensorFlow</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source machine learning framework for building and training AI models.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">ML Framework</span>
+              <span class="tool-card-tag">Development</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- PyTorch Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6300">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-fire"></i>
+              </div>
+              <h3 class="tool-card-title">PyTorch</h3>
+            </div>
+            <p class="tool-card-description">
+              Deep learning framework for building and training neural networks.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Deep Learning</span>
+              <span class="tool-card-tag">Development</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Keras Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6400">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-layer-group"></i>
+              </div>
+              <h3 class="tool-card-title">Keras</h3>
+            </div>
+            <p class="tool-card-description">
+              High-level neural networks API for building and training deep learning models.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Deep Learning</span>
+              <span class="tool-card-tag">Development</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Scikit-learn Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6500">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-cogs"></i>
+              </div>
+              <h3 class="tool-card-title">Scikit-learn</h3>
+            </div>
+            <p class="tool-card-description">
+              Machine learning library for Python with various algorithms and tools.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Machine Learning</span>
+              <span class="tool-card-tag">Python</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- FastAI Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6600">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-bolt"></i>
+              </div>
+              <h3 class="tool-card-title">FastAI</h3>
+            </div>
+            <p class="tool-card-description">
+              Deep learning library that simplifies training fast and accurate neural networks.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Deep Learning</span>
+              <span class="tool-card-tag">Python</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- JAX Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6700">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-rocket"></i>
+              </div>
+              <h3 class="tool-card-title">JAX</h3>
+            </div>
+            <p class="tool-card-description">
+              High-performance machine learning research framework with automatic differentiation.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Research</span>
+              <span class="tool-card-tag">Python</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Ray Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6800">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-sun-o"></i>
+              </div>
+              <h3 class="tool-card-title">Ray</h3>
+            </div>
+            <p class="tool-card-description">
+              Distributed computing framework for scaling machine learning applications.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Distributed Computing</span>
+              <span class="tool-card-tag">Scalability</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Weights & Biases Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="6900">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-line-chart"></i>
+              </div>
+              <h3 class="tool-card-title">Weights & Biases</h3>
+            </div>
+            <p class="tool-card-description">
+              Platform for experiment tracking, model optimization, and dataset versioning.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Experiment Tracking</span>
+              <span class="tool-card-tag">Development</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- MLflow Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7000">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-flask"></i>
+              </div>
+              <h3 class="tool-card-title">MLflow</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source platform for managing the ML lifecycle, including experimentation and deployment.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Experiment Tracking</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- DVC Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7100">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-database"></i>
+              </div>
+              <h3 class="tool-card-title">DVC</h3>
+            </div>
+            <p class="tool-card-description">
+              Data version control system for managing ML projects, datasets, and models.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Version Control</span>
+              <span class="tool-card-tag">Data Management</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Gradio Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7200">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-window-maximize"></i>
+              </div>
+              <h3 class="tool-card-title">Gradio</h3>
+            </div>
+            <p class="tool-card-description">
+              Library for creating customizable web interfaces for ML models.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">UI/UX</span>
+              <span class="tool-card-tag">Development</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Streamlit Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7300">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-tachometer"></i>
+              </div>
+              <h3 class="tool-card-title">Streamlit</h3>
+            </div>
+            <p class="tool-card-description">
+              Framework for building interactive web applications for data science and ML.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Web Apps</span>
+              <span class="tool-card-tag">Data Science</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- BentoML Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7400">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-cube"></i>
+              </div>
+              <h3 class="tool-card-title">BentoML</h3>
+            </div>
+            <p class="tool-card-description">
+              Framework for serving, deploying, and scaling ML models in production.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Deployment</span>
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Seldon Core Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7500">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-server"></i>
+              </div>
+              <h3 class="tool-card-title">Seldon Core</h3>
+            </div>
+            <p class="tool-card-description">
+              Kubernetes-native framework for deploying ML models at scale.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Kubernetes</span>
+              <span class="tool-card-tag">Deployment</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Kubeflow Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7600">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-ship"></i>
+              </div>
+              <h3 class="tool-card-title">Kubeflow</h3>
+            </div>
+            <p class="tool-card-description">
+              Kubernetes-based platform for deploying, monitoring, and managing ML systems.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Kubernetes</span>
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Feast Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7700">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-database"></i>
+              </div>
+              <h3 class="tool-card-title">Feast</h3>
+            </div>
+            <p class="tool-card-description">
+              Feature store for managing, discovering, and serving ML features.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Feature Store</span>
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Evidently Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7800">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-chart-line"></i>
+              </div>
+              <h3 class="tool-card-title">Evidently</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source framework for monitoring and analyzing ML model performance.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Monitoring</span>
+              <span class="tool-card-tag">Analytics</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Deepchecks Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="7900">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-check-square"></i>
+              </div>
+              <h3 class="tool-card-title">Deepchecks</h3>
+            </div>
+            <p class="tool-card-description">
+              Platform for testing and validating ML models and data quality.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Testing</span>
+              <span class="tool-card-tag">Validation</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Neptune Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8000">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-compass"></i>
+              </div>
+              <h3 class="tool-card-title">Neptune</h3>
+            </div>
+            <p class="tool-card-description">
+              Experiment tracking and model registry for ML teams.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Experiment Tracking</span>
+              <span class="tool-card-tag">Model Registry</span>
+              <span class="tool-card-tag">MLOps</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Comet Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8100">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-star"></i>
+              </div>
+              <h3 class="tool-card-title">Comet</h3>
+            </div>
+            <p class="tool-card-description">
+              Platform for tracking, comparing, and optimizing ML experiments.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Experiment Tracking</span>
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Development</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- ClearML Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8200">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-tasks"></i>
+              </div>
+              <h3 class="tool-card-title">ClearML</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source platform for experiment tracking, model management, and MLOps.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Experiment Tracking</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Optuna Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8300">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-sliders"></i>
+              </div>
+              <h3 class="tool-card-title">Optuna</h3>
+            </div>
+            <p class="tool-card-description">
+              Hyperparameter optimization framework for machine learning.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Optimization</span>
+              <span class="tool-card-tag">Development</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Weights & Biases Sweeps Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8400">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-magic"></i>
+              </div>
+              <h3 class="tool-card-title">Weights & Biases Sweeps</h3>
+            </div>
+            <p class="tool-card-description">
+              Hyperparameter optimization and experiment management platform.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Optimization</span>
+              <span class="tool-card-tag">Experiment Tracking</span>
+              <span class="tool-card-tag">MLOps</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Determined AI Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8500">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-cogs"></i>
+              </div>
+              <h3 class="tool-card-title">Determined AI</h3>
+            </div>
+            <p class="tool-card-description">
+              Deep learning training platform with hyperparameter tuning and experiment tracking.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Deep Learning</span>
+              <span class="tool-card-tag">Training</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- SigOpt Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8600">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-chart-bar"></i>
+              </div>
+              <h3 class="tool-card-title">SigOpt</h3>
+            </div>
+            <p class="tool-card-description">
+              Enterprise-grade optimization platform for ML model tuning.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Optimization</span>
+              <span class="tool-card-tag">Enterprise</span>
+              <span class="tool-card-tag">MLOps</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Weights & Biases Artifacts Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8700">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-archive"></i>
+              </div>
+              <h3 class="tool-card-title">Weights & Biases Artifacts</h3>
+            </div>
+            <p class="tool-card-description">
+              Version control system for ML datasets, models, and other artifacts.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Version Control</span>
+              <span class="tool-card-tag">Data Management</span>
+              <span class="tool-card-tag">MLOps</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Pachyderm Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8800">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-database"></i>
+              </div>
+              <h3 class="tool-card-title">Pachyderm</h3>
+            </div>
+            <p class="tool-card-description">
+              Data versioning and pipeline platform for ML and data science.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Data Versioning</span>
+              <span class="tool-card-tag">Pipelines</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Dask Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="8900">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-th-large"></i>
+              </div>
+              <h3 class="tool-card-title">Dask</h3>
+            </div>
+            <p class="tool-card-description">
+              Parallel computing library for scaling Python data science workflows.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Parallel Computing</span>
+              <span class="tool-card-tag">Data Science</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Apache Spark Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9000">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-fire"></i>
+              </div>
+              <h3 class="tool-card-title">Apache Spark</h3>
+            </div>
+            <p class="tool-card-description">
+              Unified analytics engine for large-scale data processing and ML.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Big Data</span>
+              <span class="tool-card-tag">Distributed Computing</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Apache Airflow Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9100">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-wind"></i>
+              </div>
+              <h3 class="tool-card-title">Apache Airflow</h3>
+            </div>
+            <p class="tool-card-description">
+              Platform for programmatically authoring, scheduling, and monitoring workflows.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Workflow</span>
+              <span class="tool-card-tag">Scheduling</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Prefect Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9200">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-tasks"></i>
+              </div>
+              <h3 class="tool-card-title">Prefect</h3>
+            </div>
+            <p class="tool-card-description">
+              Workflow management system for data engineering and ML pipelines.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Workflow</span>
+              <span class="tool-card-tag">Data Engineering</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Dagster Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9300">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-sitemap"></i>
+              </div>
+              <h3 class="tool-card-title">Dagster</h3>
+            </div>
+            <p class="tool-card-description">
+              Data orchestrator for building and running data pipelines.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Data Pipeline</span>
+              <span class="tool-card-tag">Orchestration</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free / Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Metaflow Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9400">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-random"></i>
+              </div>
+              <h3 class="tool-card-title">Metaflow</h3>
+            </div>
+            <p class="tool-card-description">
+              Framework for building and managing data science projects at scale.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Data Science</span>
+              <span class="tool-card-tag">Workflow</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Flyte Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9500">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-plane"></i>
+              </div>
+              <h3 class="tool-card-title">Flyte</h3>
+            </div>
+            <p class="tool-card-description">
+              Cloud-native workflow automation platform for ML and data processing.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Workflow</span>
+              <span class="tool-card-tag">Cloud Native</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- ZenML Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9600">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-cube"></i>
+              </div>
+              <h3 class="tool-card-title">ZenML</h3>
+            </div>
+            <p class="tool-card-description">
+              MLOps framework for reproducible and production-ready ML pipelines.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Pipelines</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Kedro Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9700">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-sitemap"></i>
+              </div>
+              <h3 class="tool-card-title">Kedro</h3>
+            </div>
+            <p class="tool-card-description">
+              Framework for building reproducible, maintainable, and modular data science code.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Data Science</span>
+              <span class="tool-card-tag">Development</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- MLRun Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9800">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-play-circle"></i>
+              </div>
+              <h3 class="tool-card-title">MLRun</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source MLOps framework for building and managing ML pipelines.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Pipelines</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Cortex Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="9900">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-cloud"></i>
+              </div>
+              <h3 class="tool-card-title">Cortex</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source platform for deploying ML models to production.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Deployment</span>
+              <span class="tool-card-tag">MLOps</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+
+          <!-- Triton Inference Server Card -->
+          <div class="tool-card" data-aos="fade-up" data-aos-duration="10000">
+            <div class="tool-card-header">
+              <div class="tool-card-icon">
+                <i class="fa fa-server"></i>
+              </div>
+              <h3 class="tool-card-title">Triton Inference Server</h3>
+            </div>
+            <p class="tool-card-description">
+              Open-source inference serving software for deploying ML models at scale.
+            </p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Inference</span>
+              <span class="tool-card-tag">Deployment</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+        </div>
+      </main>
+  
+      <!-- Tools Grid -->
+      <section id="tools-grid" class="grid-container">
+        <!-- Tool Cards will be dynamically populated here -->
+      </section>
+    </main>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <h2 data-aos="fade-down" data-aos-duration="3500">Daddlez</h2>
+            <p data-aos="fade-down" data-aos-duration="3500">No need to search more !</p>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>WEEBLY THEMES</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Pre-Sale FAQs</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Submit a Ticket</a></li>
+            </ul>
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>SERVICES</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Theme Tweak</a></li>
+            </ul>
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>SHOWCASE</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Widgetkit</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Support</a></li>
+            </ul>
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>ABOUT US</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Contact Us</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Affiliates</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Resources</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-facebook"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-twitter"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-rss"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-google"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-flickr"></i></a>
+          </div>
+          <div class="footer-copyright">
+            <p>&copy; Copyright. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/js/load-tools.js"></script>
+    <script src="assets/js/filter.js"></script>
+  </body>
+</html>

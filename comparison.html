@@ -1,0 +1,266 @@
+// ... existing code ...
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comparison - Daddlez</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  </head>
+  <body>
+    <img class="image-gradient" src="gradient (1).png" alt="gradient" />
+    <div class="layer-blur"></div>
+    <div class="container">
+      <header>
+        <h1 data-aos="fade-down" data-aos-duration="2000" class="logo">Daddlez</h1>
+        <nav>
+          <a data-aos="fade-down" data-aos-duration="1500" href="index.html">Home</a>
+          <a data-aos="fade-down" data-aos-duration="2000" href="browse tools.html">Browse Tools</a>
+          <a data-aos="fade-down" data-aos-duration="2500" href="comparison.html">Comparisons</a>
+          <a data-aos="fade-down" data-aos-duration="3000" href="blog.html">Blog</a>
+          <a data-aos="fade-down" data-aos-duration="3000" href="submittool.html">Submit Tools</a>
+        </nav>
+        <button data-aos="fade-down" data-aos-duration="1500" class="btn-signing">SIGNING</button>
+      </header>
+      <main class="comparison-main">
+        <section class="comparison-intro">
+          <div class="comparison-categories" style="justify-content: center; margin-bottom: 2rem;">
+            <button class="category-btn active" data-category="chatbots">Chatbots</button>
+            <button class="category-btn" data-category="image-gen">Image Generation</button>
+            <button class="category-btn" data-category="coding">Coding Assistants</button>
+          </div>
+          <h1 style="text-align: center;">Compare Top AI Tools</h1>
+          <p style="text-align: center;">
+            Find out which AI tool is best for your needs. Select a category to see a side-by-side comparison of the leading options, their features, and what makes each unique.
+          </p>
+        </section>
+        <section class="tools-grid comparison-tools-grid">
+          <!-- Chatbots -->
+          <div class="tool-card" data-category="chatbots">
+            <div class="tool-card-header">
+              <div class="tool-card-icon"><i class="fa fa-robot"></i></div>
+              <h3 class="tool-card-title">ChatGPT <span class="best-badge">Best Overall</span></h3>
+            </div>
+            <p class="tool-card-description">Natural conversation, wide knowledge base, API access.</p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">AI Chat</span>
+              <span class="tool-card-tag">Productivity</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free & Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+          <div class="tool-card" data-category="chatbots">
+            <div class="tool-card-header">
+              <div class="tool-card-icon"><i class="fa fa-brain"></i></div>
+              <h3 class="tool-card-title">Claude</h3>
+            </div>
+            <p class="tool-card-description">Helpful, honest, harmless. Great for analysis.</p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">AI Assistant</span>
+              <span class="tool-card-tag">Analysis</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+          <div class="tool-card" data-category="chatbots">
+            <div class="tool-card-header">
+              <div class="tool-card-icon"><i class="fa fa-comment"></i></div>
+              <h3 class="tool-card-title">Poe</h3>
+            </div>
+            <p class="tool-card-description">Multi-model chat, easy to use.</p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Multi-model</span>
+              <span class="tool-card-tag">Chat</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free & Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+          <!-- Image Generation -->
+          <div class="tool-card" data-category="image-gen" style="display:none;">
+            <div class="tool-card-header">
+              <div class="tool-card-icon"><i class="fa fa-image"></i></div>
+              <h3 class="tool-card-title">Midjourney <span class="best-badge">Best for Art</span></h3>
+            </div>
+            <p class="tool-card-description">Stunning artwork, text-to-image.</p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Image Generation</span>
+              <span class="tool-card-tag">Art</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+          <div class="tool-card" data-category="image-gen" style="display:none;">
+            <div class="tool-card-header">
+              <div class="tool-card-icon"><i class="fa fa-paint-brush"></i></div>
+              <h3 class="tool-card-title">DALL-E</h3>
+            </div>
+            <p class="tool-card-description">Unique images, OpenAI model.</p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Image Generation</span>
+              <span class="tool-card-tag">AI Art</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+          <div class="tool-card" data-category="image-gen" style="display:none;">
+            <div class="tool-card-header">
+              <div class="tool-card-icon"><i class="fa fa-magic"></i></div>
+              <h3 class="tool-card-title">Stable Diffusion</h3>
+            </div>
+            <p class="tool-card-description">Open source, customizable.</p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Open Source</span>
+              <span class="tool-card-tag">Customizable</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+          <!-- Coding Assistants -->
+          <div class="tool-card" data-category="coding" style="display:none;">
+            <div class="tool-card-header">
+              <div class="tool-card-icon"><i class="fa fa-code"></i></div>
+              <h3 class="tool-card-title">GitHub Copilot <span class="best-badge">Best for Developers</span></h3>
+            </div>
+            <p class="tool-card-description">Real-time code suggestions, IDE integration.</p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Coding</span>
+              <span class="tool-card-tag">IDE</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+          <div class="tool-card" data-category="coding" style="display:none;">
+            <div class="tool-card-header">
+              <div class="tool-card-icon"><i class="fa fa-language"></i></div>
+              <h3 class="tool-card-title">Cohere</h3>
+            </div>
+            <p class="tool-card-description">Text generation, enterprise NLP.</p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">Text Generation</span>
+              <span class="tool-card-tag">NLP</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Premium</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+          <div class="tool-card" data-category="coding" style="display:none;">
+            <div class="tool-card-header">
+              <div class="tool-card-icon"><i class="fa fa-cube"></i></div>
+              <h3 class="tool-card-title">TensorFlow</h3>
+            </div>
+            <p class="tool-card-description">ML framework, open source.</p>
+            <div class="tool-card-tags">
+              <span class="tool-card-tag">ML Framework</span>
+              <span class="tool-card-tag">Open Source</span>
+            </div>
+            <div class="tool-card-meta">
+              <span class="tool-card-price">Free</span>
+              <div class="tool-card-rating">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+            </div>
+            <a href="#" class="tool-card-button">Learn More</a>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <h2 data-aos="fade-down" data-aos-duration="3500">Daddlez</h2>
+            <p data-aos="fade-down" data-aos-duration="3500">No need to search more !</p>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>WEEBLY THEMES</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Pre-Sale FAQs</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Submit a Ticket</a></li>
+            </ul>
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>SERVICES</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Theme Tweak</a></li>
+            </ul>
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>SHOWCASE</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Widgetkit</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Support</a></li>
+            </ul>
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>ABOUT US</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Contact Us</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Affiliates</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Resources</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-facebook"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-twitter"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-rss"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-google"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-flickr"></i></a>
+          </div>
+          <div class="footer-copyright">
+            <p>&copy; Copyright. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      // Category switching for tool cards
+      const catBtns = document.querySelectorAll('.category-btn');
+      const toolCards = document.querySelectorAll('.tool-card');
+      catBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          catBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const cat = btn.dataset.category;
+          toolCards.forEach(card => {
+            card.style.display = card.dataset.category === cat ? '' : 'none';
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

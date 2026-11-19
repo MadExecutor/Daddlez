@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Tools - Daddlez</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        /* Additional Styles for Submit Form */
+        .submit-form {
+          background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+          padding: 2rem;
+          border-radius: 15px;
+          box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Glow effect */
+          max-width: 500px;
+          margin: 2rem auto;
+        }
+  
+        .form-group {
+          margin-bottom: 1.5rem;
+        }
+  
+        .form-group label {
+          display: block;
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
+          color: #e7e7e7;
+        }
+  
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+          width: 100%;
+          padding: 0.8rem 1rem;
+          border: 1px solid #7f42a7;
+          border-radius: 50px;
+          background-color: rgba(255, 255, 255, 0.05);
+          color: #e7e7e7;
+          font-size: 1rem;
+          outline: none;
+          transition: border-color 0.3s ease;
+        }
+  
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+          border-color: #5300a0;
+        }
+  
+        .form-group textarea {
+          resize: none;
+        }
+  
+        .btn-submit {
+          display: block;
+          width: 100%;
+          padding: 1rem;
+          border: none;
+          border-radius: 50px;
+          background: linear-gradient(to right, #7f42a7, #5300a0);
+          color: #fff;
+          font-size: 1.2rem;
+          font-weight: bold;
+          cursor: pointer;
+          transition: background 0.3s ease, transform 0.2s ease;
+        }
+  
+        .btn-submit:hover {
+          background: linear-gradient(to right, #5300a0, #7f42a7);
+          transform: scale(1.05);
+        }
+      </style>
+  </head>
+  <body>
+    <img class="image-gradient" src="gradient (1).png" alt="gradient" />
+    <div class="layer-blur"></div>
+    <div class="container">
+      <header>
+        <h1 data-aos="fade-down" data-aos-duration="2000" class="logo">Daddlez</h1>
+        <nav>
+          <a data-aos="fade-down" data-aos-duration="1500" href="index.html">Home</a>
+          <a data-aos="fade-down" data-aos-duration="2000" href="browse tools.html">Browse Tools</a>
+          <a data-aos="fade-down" data-aos-duration="2500" href="comparison.html">Comparisons</a>
+          <a data-aos="fade-down" data-aos-duration="3000" href="blog.html">Blog</a>
+          <a data-aos="fade-down" data-aos-duration="3000" href="submittool.html">Submit Tools</a>
+        </nav>
+        <button data-aos="fade-down" data-aos-duration="1500" class="btn-signing">SIGNING</button>
+      </header>
+
+      <main>
+        <div class="content">
+          <h1 data-aos="fade-zoom-in" 
+              data-aos-duration="2000">
+            Submit Your AI Tool
+          </h1>
+          <p data-aos="fade-zoom-in" 
+             data-aos-duration="2500" 
+             class="description">
+            Share your AI tools with the community. Fill out the form below to submit your tool for review.
+          </p>
+
+          <form data-aos="fade-zoom-in" 
+                data-aos-duration="3000" 
+                class="submit-form">
+            <div class="form-group">
+              <label for="toolName">Tool Name:</label>
+              <input type="text" id="toolName" name="toolName" placeholder="Enter the name of your tool" required />
+            </div>
+            <div class="form-group">
+              <label for="toolDescription">Description:</label>
+              <textarea id="toolDescription" name="toolDescription" rows="4" placeholder="Write a brief description of your tool" required></textarea>
+            </div>
+            <div class="form-group">
+              <label for="toolCategory">Category:</label>
+              <select id="toolCategory" name="toolCategory" required>
+                <option value="">Select a category</option>
+                <option value="productivity">Productivity</option>
+                <option value="education">Education</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="entertainment">Entertainment</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="toolLink">Tool Link:</label>
+              <input type="url" id="toolLink" name="toolLink" placeholder="Enter the URL of your tool" required />
+            </div>
+            <button type="submit" class="btn-submit">Submit Tool</button>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <h2 data-aos="fade-down" data-aos-duration="3500">Daddlez</h2>
+            <p data-aos="fade-down" data-aos-duration="3500">No need to search more !</p>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>WEEBLY THEMES</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Pre-Sale FAQs</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Submit a Ticket</a></li>
+            </ul>
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>SERVICES</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Theme Tweak</a></li>
+            </ul>
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>SHOWCASE</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Widgetkit</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Support</a></li>
+            </ul>
+            <ul>
+              <li data-aos="fade-down" data-aos-duration="3500"><strong>ABOUT US</strong></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Contact Us</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Affiliates</a></li>
+              <li data-aos="fade-down" data-aos-duration="3500"><a data-aos="fade-down" data-aos-duration="3500" href="#">Resources</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-facebook"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-twitter"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-rss"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-google"></i></a>
+            <a data-aos="fade-down" data-aos-duration="3500" href="#"><i class="fa fa-flickr"></i></a>
+          </div>
+          <div class="footer-copyright">
+            <p>&copy; Copyright. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
